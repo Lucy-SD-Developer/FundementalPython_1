@@ -1,0 +1,86 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"></html>
+  <head>
+<title>exe</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" content="en" />
+<meta name="robots" content="index,follow" />
+<link rel="stylesheet" type="text/css" href="./resources/css.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="./resources/code.css" media="screen, print" />
+<link href='./resources/print_stylesheet.css' rel='stylesheet' type='text/css' media='print' />
+<script src="./resources/AC_QuickTime.js" language="javascript" type="text/javascript"> </script>
+<script src="./resources/common.js" language="javascript" type="text/javascript"> </script>
+<script src="./jsFiles/unitData.js" language="javascript" type="text/javascript"> </script>
+<script src="./jsFiles/exercises-4.js" language="javascript" type="text/javascript"> </script>
+<script type="text/javascript" src="./resources/shCore.js"></script>
+<script type="text/javascript" src="./resources/shBrushJScript.js"></script>
+<script type="text/javascript" src="./resources/shBrushPlain.js"></script>
+<script type="text/javascript" src="./resources/shBrushXml.js"></script>
+<link type="text/css" rel="stylesheet" href="./resources/shCore.css"/>
+<link type="text/css" rel="stylesheet" href="./resources/shThemeDefault.css"/>
+<script type="text/javascript">
+SyntaxHighlighter.config.clipboardSwf = './resources/clipboard.swf';
+SyntaxHighlighter.all();
+</script>
+
+</head>
+<body>
+<div id="center">
+<div id="border">
+  <div id="logo" class="noprint">
+    Introduction to Programming - Python<br>
+    Author: <b>Lucy</b>
+  </div>
+  <div style="font:1.3em geneva,arial,sans-serif;" class="noview">
+    Introduction to Python 1
+    <hr />
+  </div>
+  <div class="noprint">
+    <p class="heading">
+      <a style="color:#999;font-weight:bold;" href="#" /><img src="./resources/home_24.png" />Python</a>
+            <img src="./resources/arrow_right_small.png" />Introduction to Python <hr /> 
+    </p>
+  </div>
+<div id="main">
+  <h1>Make your own .exe<hr /></h1></div>
+    <ul>
+      <li>Please refer to pyinstaller documentation: <a href="https://pyinstaller.readthedocs.io/en/stable/installation.html">How do I make an executable from a Python script?</a></li>
+      <li>Another reference: <a href="https://datatofish.com/executable-pyinstaller/">see here</a></li>
+    </ul>   
+    <ol>
+      <li>Create a new folder/directory, rename it as 'firstExe'</li>
+      <li>Prepare one python script file that has GUI, like your turtle program, easygui, tkinter...</li>
+      <li>Prepare one xxxx.ico image that will be your .exe icon (<a href="https://icon-icons.com/">refer to this website<a>)</li>
+      <li>Put the zzzz.py file and .ico image under the same folder: firstExe</li>
+      <li>pip install pyinstaller</li>
+      <li>If you are using windows OS, please install <a href="https://github.com/mhammond/pywin32/releases"><b>pywin32</b></a></li>
+      <li>In your terminal/command prompt, input pyinstaller -h to inspect parameters</li>
+      <li>Change current directory to 'firstExe'</li>
+      <li>Input: pyinstaller -F -w --icon=xxxx.ico zzzz.py</li>
+      <li>Press enter key</li>
+      <li>Find your .exe in dist directory</li>
+      <li>Remember the .exe can only work on the same OS</li>
+    </ol>
+
+</div> 
+
+
+
+<p><br /><br /><br /></p>      </div>
+  <br /><br />
+<div id="footer"  class="noprint">
+
+<p class="footer">
+<input type=button value="Back" onClick="history.go(-1)">
+<a href="http://validator.w3.org/check?uri=referer">Valid XHTML 1.1</a>
+&nbsp;&nbsp;|&nbsp;&nbsp; <a href="http://jigsaw.w3.org/css-validator/">Valid CSS</a>
+&nbsp;&nbsp;|&nbsp;&nbsp; Design by <a href=
+""><b>Lucy Lin</b></a>
+</p>
+</div>
+</div>
+</div>
+</body>
+</html>
